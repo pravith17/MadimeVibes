@@ -20,7 +20,7 @@ body{
         .border-gold { border-color: #b7892b; }
 
         /* --- Header --- */
-        .site-header {
+      /*  .site-header {
             background-color: rgba(0, 0, 0, 0.3);
             backdrop-filter: blur(8px);
             position: fixed;
@@ -40,6 +40,32 @@ body{
             transition: all 0.3s ease;
         }
         .nav-link:hover, .nav-link.active {
+            color: #ffffff;
+            border-bottom-color: #b7892b;
+        } */
+        
+        .site-header {
+            padding: 1rem 2rem;
+            background-color: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(5px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: #ffefc1;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            padding-bottom: 4px;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
             color: #ffffff;
             border-bottom-color: #b7892b;
         }
