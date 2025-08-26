@@ -1,0 +1,73 @@
+body{
+            background-color: #4a1d1f; /* Deep maroon background */
+            color: #fff8e1; /* Creamy text */
+            font-family: 'Cormorant Garamond', serif;
+        }
+
+        /* --- Font Styles --- */
+        .title-font { font-family: 'Dancing Script', cursive; }
+        .main-font { font-family: 'Cormorant Garamond', serif; }
+        .details-font { font-family: 'Playfair Display', serif; }
+        .kannada-font { font-family: 'Tiro Kannada', serif; }
+
+        /* --- Color Palette --- */
+        .bg-maroon-deep { background-color: #4a1d1f; }
+        .bg-red-rich { background-color: #4a1d1f; }
+        .bg-cream { background-color: #fff8e1; }
+        .text-cream { color: #fff8e1; }
+        .text-gold { color: #b7892b; }
+        .text-maroon { color: #4a1d1f; }
+        .border-gold { border-color: #b7892b; }
+
+        /* --- Header --- */
+        .site-header {
+            background-color: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(8px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 50;
+        }
+        .nav-link {
+            color: #ffefc1;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            padding-bottom: 4px;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .nav-link:hover, .nav-link.active {
+            color: #ffffff;
+            border-bottom-color: #b7892b;
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            background-image: linear-gradient(rgba(74, 29, 31, 0.7), rgba(74, 29, 31, 0.7)), url('https://images.unsplash.com/photo-1597855034833-227417433878?q=80&w=1887&auto=format&fit=crop');
+            /* IMPORTANT: Replace with your couple's photo */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Parallax effect */
+        }
+        
+        .divider {
+            height: 1px;
+            width: 80px;
+            margin: 2rem auto;
+            background: linear-gradient(to right, transparent, #b7892b, transparent);
+        }
+
+        /* --- Scroll Animations --- */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
