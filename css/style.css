@@ -34,7 +34,7 @@ body{
             text-decoration: none;
             margin: 0 20px;
             font-size: 1.1rem;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             padding-bottom: 4px;
             border-bottom: 2px solid transparent;
             transition: all 0.3s ease;
