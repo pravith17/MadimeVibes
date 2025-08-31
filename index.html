@@ -169,7 +169,6 @@
     </footer>
 
     <script>
-        // --- Countdown Timer Logic ---
         const countdownDate = new Date("Nov 6, 2025 09:50:00").getTime();
 
         const x = setInterval(function() {
@@ -192,7 +191,6 @@
             }
         }, 1000);
 
-        // --- Scroll Animation Logic ---
         const animatedElements = document.querySelectorAll('.animate-on-scroll');
 
         const observer = new IntersectionObserver((entries) => {
@@ -203,7 +201,8 @@
                 }
             });
         }, {
-            threshold: 0.1 // Trigger when 10% of the element is visible
+            threshold: 0.1 
+            
         });
 
         animatedElements.forEach(el => {
