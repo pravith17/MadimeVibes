@@ -1,6 +1,5 @@
         body {
             background: #4a1d1f;
-            /* Deep maroon background */
             font-family: 'Cormorant Garamond', serif;
         }
 
@@ -10,7 +9,6 @@
             /* Wider for content */
             margin: 1rem auto 2rem auto;
             background: linear-gradient(145deg, #fff8e1, #ffefc1);
-            /* Creamy gradient */
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
             border-radius: 12px;
             overflow: hidden;
@@ -62,7 +60,6 @@
             background: linear-gradient(to right, transparent, #b7892b, transparent);
         }
 
-        /* Header Styles */
         .site-header {
             padding: 1rem 2rem;
             background-color: rgba(0, 0, 0, 0.2);
@@ -107,6 +104,5 @@
         .highlight {
             font-style: italic;
             color: #a0522d;
-            /* Sienna */
             font-size: 1rem;
         }
