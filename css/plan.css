@@ -6,7 +6,6 @@
         .content-card {
             width: 100%;
             max-width: 800px;
-            /* Wider for content */
             margin: 1rem auto 2rem auto;
             background: linear-gradient(145deg, #fff8e1, #ffefc1);
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
