@@ -4,13 +4,13 @@ body{
             font-family: 'Cormorant Garamond', serif;
         }
 
-        /* --- Font Styles --- */
+        
         .title-font { font-family: 'Dancing Script', cursive; }
         .main-font { font-family: 'Cormorant Garamond', serif; }
         .details-font { font-family: 'Playfair Display', serif; }
         .kannada-font { font-family: 'Tiro Kannada', serif; }
 
-        /* --- Color Palette --- */
+        
         .bg-maroon-deep { background-color: #4a1d1f; }
         .bg-red-rich { background-color: #4a1d1f; }
         .bg-cream { background-color: #fff8e1; }
@@ -19,7 +19,6 @@ body{
         .text-maroon { color: #4a1d1f; }
         .border-gold { border-color: #b7892b; }
 
-        /* --- Header --- */
       /*  .site-header {
             background-color: rgba(0, 0, 0, 0.3);
             backdrop-filter: blur(8px);
@@ -70,7 +69,6 @@ body{
             border-bottom-color: #b7892b;
         }
 
-        /* --- Hero Section --- */
         .hero {
             background-image: linear-gradient(rgba(74, 29, 31, 0.7), rgba(74, 29, 31, 0.7)), url('https://images.unsplash.com/photo-1597855034833-227417433878?q=80&w=1887&auto=format&fit=crop');
             /* IMPORTANT: Replace with your couple's photo */
@@ -86,7 +84,6 @@ body{
             background: linear-gradient(to right, transparent, #b7892b, transparent);
         }
 
-        /* --- Scroll Animations --- */
         .animate-on-scroll {
             opacity: 0;
             transform: translateY(30px);
