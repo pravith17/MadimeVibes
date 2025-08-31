@@ -73,7 +73,7 @@ body{
             background-image: linear-gradient(rgba(74, 29, 31, 0.7), rgba(74, 29, 31, 0.7)), url('https://images.unsplash.com/photo-1597855034833-227417433878?q=80&w=1887&auto=format&fit=crop');
             background-size: cover;
             background-position: center;
-            background-attachment: fixed; /* Parallax effect */
+            background-attachment: fixed;
         }
         
         .divider {
